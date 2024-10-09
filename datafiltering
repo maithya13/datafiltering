@@ -1,0 +1,4 @@
+SELECT first_name, last_name, department
+FROM employees
+WHERE salary > 50000
+AND department = 'IT';
